@@ -1,6 +1,6 @@
 # Inspiral
 
-<img src="./logo/All.png" alt="logo" style="zoom:5%;" />
+<img src="./Logo/All.png" alt="logo" width="200" height="200" />
 
 ### 设计图
 
