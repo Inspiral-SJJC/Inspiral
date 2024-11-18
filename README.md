@@ -100,7 +100,7 @@
    cd <你的项目文件夹>
    git clone https://github.com/your-repo-name.git
    cd Inspiral
-
+   ```
 
 
 ### **贡献指南**
