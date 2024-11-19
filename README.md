@@ -1,6 +1,6 @@
 # Inspiral
 
-<img src="./Logo/All.png" alt="logo" width="200" height="200" />
+<img src="./Icons/Icon-macOS/icon_512x512.png" alt="logo" width="200" height="200" />
 
 ## 项目简介
 
