@@ -130,6 +130,6 @@
 
 ## **联系方式**
 
-* 开发者邮箱：wangchenlin2001@icloud.com
+* 开发者邮箱：inspiral@inspiral.site
 
 * 项目主页：尚无
