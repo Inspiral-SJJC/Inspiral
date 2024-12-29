@@ -132,4 +132,4 @@
 
 * 开发者邮箱：contact@official.whooshings.space
 
-* 项目主页：尚无
+* 项目主页：https://whooshings.space
