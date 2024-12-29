@@ -1,4 +1,4 @@
-# Whoothing 悟性
+# Whooshing 悟性
 
 ## 项目简介
 
@@ -96,7 +96,7 @@
 1. 克隆项目到本地：
    ```bash
    cd <你的项目文件夹>
-   git clone https://github.com/SJJC-Team/Whoothing.git
+   git clone https://github.com/SJJC-Team/Whooshing.git
    cd Whoothing
    ```
 
@@ -130,6 +130,6 @@
 
 ## **联系方式**
 
-* 开发者邮箱：inspiral@inspiral.site
+* 开发者邮箱：contact@official.whooshings.space
 
 * 项目主页：尚无
