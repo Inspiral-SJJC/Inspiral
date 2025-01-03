@@ -1377,12 +1377,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xx5j3iOLvcRMzHKX-COr" name="4.云服务器-详细部署">
-    <mxGraphModel dx="1314" dy="1774" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2072" dy="2137" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WbeclCXcYKyu5GTuqb2X-2" value="端口：9410&lt;div&gt;架构：Vapor + Fluent Postgresql Driver&lt;/div&gt;&lt;div&gt;域名：localhost&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;本地服务，不公开&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;spacingRight=30;" parent="1" vertex="1">
-          <mxGeometry x="803.5" y="-736" width="244" height="86" as="geometry" />
+        <mxCell id="WbeclCXcYKyu5GTuqb2X-2" value="端口：50000&lt;div&gt;架构：Vapor + Fluent Postgresql Driver&lt;/div&gt;&lt;div&gt;域名：localhost&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;本地服务，不公开&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;spacingRight=30;" parent="1" vertex="1">
+          <mxGeometry x="803.5" y="-726" width="244" height="86" as="geometry" />
         </mxCell>
         <mxCell id="WbeclCXcYKyu5GTuqb2X-3" value="&lt;div&gt;Google Cloud 服务器&lt;/div&gt;" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tower_server;" parent="1" vertex="1">
           <mxGeometry x="893" y="182" width="65" height="85" as="geometry" />
@@ -1475,18 +1475,18 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WbeclCXcYKyu5GTuqb2X-24" value="端口：20000&lt;div&gt;架构：Vapor&lt;/div&gt;&lt;div&gt;域名：api.whooshings.space&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;spacingRight=30;" parent="1" vertex="1">
-          <mxGeometry x="337" y="-373" width="204" height="56" as="geometry" />
+        <mxCell id="WbeclCXcYKyu5GTuqb2X-24" value="端口：20000~&lt;div&gt;架构：Vapor&lt;/div&gt;&lt;div&gt;域名：api.whooshings.space&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;spacingRight=30;" parent="1" vertex="1">
+          <mxGeometry x="211" y="-373" width="204" height="56" as="geometry" />
         </mxCell>
         <mxCell id="WbeclCXcYKyu5GTuqb2X-25" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;" parent="1" source="WbeclCXcYKyu5GTuqb2X-24" target="3b0Vuhjt7hi_v5IqcxAS-8" edge="1">
           <mxGeometry width="120" relative="1" as="geometry">
-            <mxPoint x="662" y="-366" as="sourcePoint" />
-            <mxPoint x="670" y="-343.24" as="targetPoint" />
+            <mxPoint x="536" y="-366" as="sourcePoint" />
+            <mxPoint x="544" y="-343.24" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WbeclCXcYKyu5GTuqb2X-26" value="端口：9412&lt;div&gt;架构：Postgresql&lt;/div&gt;&lt;div&gt;域名：localhost&lt;/div&gt;&lt;div&gt;容量：1TB +&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;本地服务，不公开&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;spacingRight=30;" parent="1" vertex="1">
-          <mxGeometry x="606" y="395" width="149" height="98" as="geometry" />
+        <mxCell id="WbeclCXcYKyu5GTuqb2X-26" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;容量：1TB +&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;spacingRight=30;" parent="1" vertex="1">
+          <mxGeometry x="606" y="395" width="149" height="44" as="geometry" />
         </mxCell>
         <mxCell id="WbeclCXcYKyu5GTuqb2X-27" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;" parent="1" source="WbeclCXcYKyu5GTuqb2X-26" target="WbeclCXcYKyu5GTuqb2X-12" edge="1">
           <mxGeometry width="120" relative="1" as="geometry">
@@ -1497,7 +1497,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WbeclCXcYKyu5GTuqb2X-30" value="白名单：&lt;div&gt;tcp - 9410 出站&lt;br&gt;&lt;div&gt;tcp - 9411&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;tcp - 9412 入站&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;tcp - 9413 入站&lt;br&gt;&lt;/div&gt;&lt;div&gt;X - tcp - 9414 出入站&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;tcp - 9415 入站&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;tcp - 9416 入站&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;tcp - 9417 入站&lt;br&gt;&lt;/div&gt;&lt;div&gt;tcp - 9418 入站&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;tcp - 9419 入站&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;tcp - 9420 入站&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;tcp, udp - 3478 出入站&lt;/div&gt;&lt;div&gt;tcp - 8080&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tcp - 2525&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;出入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tcp - 465&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;出入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tcp - 993&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;出入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tcp - 443 出入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tcp - 80 入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;tcp - 22 入站&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;udp - 1900&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;出入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;udp - 7359&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;出入站&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;spacingRight=30;" parent="1" vertex="1">
+        <mxCell id="WbeclCXcYKyu5GTuqb2X-30" value="白名单：&lt;div&gt;&lt;div&gt;tcp - 9411&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;tcp - 9413 入站&lt;br&gt;&lt;/div&gt;&lt;div&gt;X - tcp - 9414 出入站&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;tcp - 9415 入站&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;tcp - 9416 入站&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;tcp - 9417 入站&lt;br&gt;&lt;/div&gt;&lt;div&gt;tcp - 9418 入站&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;tcp - 9419 入站&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;tcp - 9420 入站&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;tcp, udp - 3478 出入站&lt;/div&gt;&lt;div&gt;tcp - 8080&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tcp - 2525&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;出入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tcp - 465&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;出入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tcp - 993&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;出入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tcp - 443 出入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tcp - 80 入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;tcp - 22 入站&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;udp - 1900&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;出入站&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;X -&amp;nbsp;&lt;/span&gt;udp - 7359&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;出入站&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;spacingRight=30;" parent="1" vertex="1">
           <mxGeometry x="1324" y="62" width="188" height="325" as="geometry" />
         </mxCell>
         <mxCell id="WbeclCXcYKyu5GTuqb2X-31" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;" parent="1" source="WbeclCXcYKyu5GTuqb2X-4" target="WbeclCXcYKyu5GTuqb2X-30" edge="1">
@@ -1550,7 +1550,7 @@
           <mxGeometry x="1324" y="-552" width="206" height="72" as="geometry" />
         </mxCell>
         <mxCell id="WbeclCXcYKyu5GTuqb2X-41" value="NextCloud 服务器" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;dashed=1;dashPattern=8 8;gradientColor=default;opacity=50;" parent="1" vertex="1">
-          <mxGeometry x="670" y="-189" width="63" height="60" as="geometry" />
+          <mxGeometry x="544" y="-189" width="63" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WbeclCXcYKyu5GTuqb2X-42" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=2;strokeColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;dashed=1;" parent="1" source="WbeclCXcYKyu5GTuqb2X-5" target="WbeclCXcYKyu5GTuqb2X-41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1559,12 +1559,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WbeclCXcYKyu5GTuqb2X-43" value="&lt;div&gt;临时服务&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;网站端口：9414&lt;div&gt;&lt;div&gt;域名：nc.whooshings.space&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AIO 端口: 9415&lt;/div&gt;&lt;div&gt;域名：aio.nc.whooshings.space&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;8443 映射：&lt;span style=&quot;background-color: initial;&quot;&gt;9416&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;80 映射：9417&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NextCloud Talk&lt;/div&gt;&lt;div&gt;端口：UDP,TCP 3478&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;spacingRight=30;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
-          <mxGeometry x="337" y="-266" width="209" height="214" as="geometry" />
+          <mxGeometry x="211" y="-266" width="209" height="214" as="geometry" />
         </mxCell>
         <mxCell id="WbeclCXcYKyu5GTuqb2X-44" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;" parent="1" source="WbeclCXcYKyu5GTuqb2X-43" target="WbeclCXcYKyu5GTuqb2X-41" edge="1">
           <mxGeometry width="120" relative="1" as="geometry">
-            <mxPoint x="712" y="-229" as="sourcePoint" />
-            <mxPoint x="712" y="-303" as="targetPoint" />
+            <mxPoint x="586" y="-229" as="sourcePoint" />
+            <mxPoint x="586" y="-303" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -1613,25 +1613,25 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Iy5FrECCDlDZ0u3_7j2o-3" value="端口：20001 - 20019&lt;div&gt;域名：localhost&lt;/div&gt;&lt;div&gt;每个服务模组可能会占用多个端口，因此为其留 19 个端口的富余&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;spacingRight=30;" parent="1" vertex="1">
-          <mxGeometry x="337" y="-559.25" width="204" height="86.5" as="geometry" />
+        <mxCell id="Iy5FrECCDlDZ0u3_7j2o-3" value="端口：20001 - 20019~&lt;div&gt;域名：localhost&lt;/div&gt;&lt;div&gt;每个服务模组可能会占用多个端口，因此为其留 19 个端口的富余。从 20000 ～ 49999 都为服务模块的可用端口&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;spacingRight=30;" parent="1" vertex="1">
+          <mxGeometry x="211" y="-564.62" width="204" height="97.25" as="geometry" />
         </mxCell>
         <mxCell id="Iy5FrECCDlDZ0u3_7j2o-4" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;" parent="1" source="Iy5FrECCDlDZ0u3_7j2o-3" target="3b0Vuhjt7hi_v5IqcxAS-4" edge="1">
           <mxGeometry width="120" relative="1" as="geometry">
-            <mxPoint x="551" y="-334" as="sourcePoint" />
-            <mxPoint x="670" y="-515.9999999999999" as="targetPoint" />
+            <mxPoint x="425" y="-334" as="sourcePoint" />
+            <mxPoint x="544" y="-515.9999999999999" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Iy5FrECCDlDZ0u3_7j2o-5" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=2;strokeColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" source="3b0Vuhjt7hi_v5IqcxAS-4" target="3b0Vuhjt7hi_v5IqcxAS-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="701.5" y="-485.9999999999999" as="sourcePoint" />
-            <mxPoint x="701.5" y="-373" as="targetPoint" />
+            <mxPoint x="575.5" y="-485.9999999999999" as="sourcePoint" />
+            <mxPoint x="575.5" y="-373" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3b0Vuhjt7hi_v5IqcxAS-1" value="各服务模组" style="group;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="655" y="-561" width="78" height="75" as="geometry" />
+          <mxGeometry x="529" y="-561" width="78" height="75" as="geometry" />
         </mxCell>
         <mxCell id="3b0Vuhjt7hi_v5IqcxAS-2" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;" parent="3b0Vuhjt7hi_v5IqcxAS-1" vertex="1">
           <mxGeometry width="63" height="60" as="geometry" />
@@ -1643,7 +1643,7 @@
           <mxGeometry x="15" y="15" width="63" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3b0Vuhjt7hi_v5IqcxAS-5" value="各服务模组 API" style="group;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="655" y="-388" width="78" height="75" as="geometry" />
+          <mxGeometry x="529" y="-388" width="78" height="75" as="geometry" />
         </mxCell>
         <mxCell id="3b0Vuhjt7hi_v5IqcxAS-6" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;" parent="3b0Vuhjt7hi_v5IqcxAS-5" vertex="1">
           <mxGeometry width="63" height="60" as="geometry" />
@@ -1653,6 +1653,28 @@
         </mxCell>
         <mxCell id="3b0Vuhjt7hi_v5IqcxAS-8" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;" parent="3b0Vuhjt7hi_v5IqcxAS-5" vertex="1">
           <mxGeometry x="15" y="15" width="63" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p6oIFxZktX5RC1foAbVQ-1" value="Vault" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;" vertex="1" parent="1">
+          <mxGeometry x="719" y="-364" width="63" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p6oIFxZktX5RC1foAbVQ-4" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeWidth=2;strokeColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="WbeclCXcYKyu5GTuqb2X-5" target="p6oIFxZktX5RC1foAbVQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="967" y="-175" as="sourcePoint" />
+            <mxPoint x="1128" y="-307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6oIFxZktX5RC1foAbVQ-5" value="端口：51000&lt;div&gt;域名：localhost&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;本地服务，不公开&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;spacingRight=30;" vertex="1" parent="1">
+          <mxGeometry x="683" y="-559.25" width="135" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="p6oIFxZktX5RC1foAbVQ-6" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="p6oIFxZktX5RC1foAbVQ-1" target="p6oIFxZktX5RC1foAbVQ-5">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="936" y="-536" as="sourcePoint" />
+            <mxPoint x="935" y="-630" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p6oIFxZktX5RC1foAbVQ-8" value="50000+的端口为内部端口，不公开，无法被外网访问" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;spacingRight=30;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-704.3100000000001" width="204" height="42.62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
